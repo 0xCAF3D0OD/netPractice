@@ -4,12 +4,13 @@ This project aims to introduce you to the network through practical cases.
 
 ## Table content
 * ☞&nbsp;&nbsp; **General concept**
-  * [ What is a network protocol? ](#desc)
-  * [ What is the OSI model? ](#usage)
+  * [ What is a **network protocol**? ](#desc)
+  * [ What is the **OSI model**? ](#usage)
 
 
-* ☞&nbsp;&nbsp; **[ main concept ](#usage)**
-
+* ☞&nbsp;&nbsp; **[ main concept ](#titre)**
+  * [ What is the **TCP** or Transmission Control Protocol? ](#usage)
+  * [ What is the **IP** or Internet Protocol? ](#usage)
 ## General information
 <a name="usage"></a>
 ### 💭 What is a network protocol?
@@ -42,9 +43,13 @@ is considered a **[network layer](https://www.cloudflare.com/learning/network-la
 Therefore, TCP is considered a transport layer (Layer 4) protocol.
 * ℹ️ More information about OSI [here](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).
 
-<a name="usage"></a>
+<a name="titre"></a>
 ## main concept
-
+* **The following themes are important for the net practice project.**
+<a name="usage"></a>
+### 💭 What is the Transmission Control Protocol (`TCP`) ?
+<a name="usage"></a>
+### 💭 What is the internet Protocol (`IP`) ?
 <a name="usage"></a>
 ## 2. Usage tips
 
