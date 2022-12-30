@@ -4,15 +4,15 @@ This project aims to introduce you to the network through practical cases.
 
 ## Table content
 * ☞&nbsp;&nbsp; **General concept**
-  * [ What is a **network protocol**? ](#desc)
-  * [ What is the **OSI model**? ](#usage)
+  * [ What is a **network protocol**? ](#network)
+  * [ What is the **OSI model**? ](#OSI)
 
 
 * ☞&nbsp;&nbsp; **[ main concept ](#titre)**
-  * [ What is the **IP** or Internet Protocol? ](#usage)
-  * [ What is the **TCP** or Transmission Control Protocol? ](#usage)
+  * [ What is the **IP** or Internet Protocol? ](#IP)
+  * [ What is the **TCP** or Transmission Control Protocol? ](#TCP)
 ## General information
-<a name="usage"></a>
+<a name="betwork"></a>
 ### 💭 What is a network protocol?
 
 * In networking, **a `protocol` is a set of rules for formatting and processing data**. Network protocols are like a common 
@@ -25,7 +25,7 @@ to understand each other, English.
 * **On the Internet, there are different protocols for different types of processes.** Protocols are often discussed in 
 terms of the layer of the `OSI` model to which they belong.
 
-<a name="usage"></a>
+<a name="OSI"></a>
 ### 💭 What is the OSI model?
 
 * The `OSI` (Open Systems Interconnection) model is an abstract representation of how the Internet works.
@@ -36,19 +36,20 @@ terms of the layer of the `OSI` model to which they belong.
 * Each layer representing a different category of networking functions, **the protocols make these networking 
 functions possible**.
 
-* ☞ &nbsp;&nbsp;&nbsp; **Internet Protocol** (`IP`) makes network-to-network communications possible. `IP` 
+* ☞ &nbsp;&nbsp;&nbsp;[ **Internet Protocol** (`IP`) ](#TCP) makes network-to-network communications possible. `IP` 
 is considered a **[network layer](https://www.cloudflare.com/learning/network-layer/what-is-the-network-layer/)** 
 (Layer 3) protocol
-* ☞ &nbsp;&nbsp;&nbsp; The **Transmission Control Protocol** (`TCP`) ensures the smooth transport of data packets over networks. 
+
+* ☞ &nbsp;&nbsp;&nbsp;[ The **Transmission Control Protocol** (`TCP`) ](#TCP) ensures the smooth transport of data packets over networks. 
 Therefore, TCP is considered a transport layer (Layer 4) protocol.
 * ℹ️ More information about OSI [here](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).
 
 <a name="titre"></a>
 ## main concept
 * **The following themes are important for the net practice project.**
-<a name="usage"></a>
+<a name="IP"></a>
 ### 💭 What is the internet Protocol (`IP`) ?
-<a name="usage"></a>
+<a name="TCP"></a>
 ### 💭 What is the Transmission Control Protocol (`TCP`) ?
 
 * `TCP` **is a transport layer protocol that ensures reliable delivery of data**. TCP is intended to be used with IP, and 
