@@ -1,12 +1,17 @@
 ![netpractice.png](img/netpractice.png)
-# introduction
+## introduction
 This project aims to introduce you to the network through practical cases.
 
-## 🧭 Table content
-* ☞&nbsp;&nbsp; **General information**
+## Table content
+* ☞&nbsp;&nbsp; **General concept**
   * [ What is a network protocol? ](#desc)
   * [ What is the OSI model? ](#usage)
 
+
+* ☞&nbsp;&nbsp; **[ main concept ](#desc)**
+  * [ What is a network protocol? ](#desc)
+  * [ What is the OSI model? ](#usage)
+## General information
 <a name="usage"></a>
 ### 💭 What is a network protocol?
 
@@ -30,8 +35,16 @@ terms of the layer of the `OSI` model to which they belong.
 
 * Each layer representing a different category of networking functions, **the protocols make these networking 
 functions possible**.
+
+* ☞ &nbsp;&nbsp;&nbsp; **Internet Protocol** (`IP`) makes network-to-network communications possible. `IP` 
+is considered a **[network layer](https://www.cloudflare.com/learning/network-layer/what-is-the-network-layer/)** 
+(Layer 3) protocol
+* ☞ &nbsp;&nbsp;&nbsp; The **Transmission Control Protocol** (`TCP`) ensures the smooth transport of data packets over networks. 
+Therefore, TCP is considered a transport layer (Layer 4) protocol.
 * ℹ️ More information about OSI [here](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).
 
+<a name="usage"></a>
+## main concept
 
 <a name="usage"></a>
 ## 2. Usage tips
