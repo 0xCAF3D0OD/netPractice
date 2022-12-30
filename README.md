@@ -11,7 +11,11 @@ This project aims to introduce you to the network through practical cases.
 * ☞&nbsp;&nbsp; **[ main concept ](#titre)**
   * [ What is the **IP** or Internet Protocol? ](#IP)
   * [ What is the **TCP** or Transmission Control Protocol? ](#TCP)
+
+
 ## General information
+
+
 <a name="betwork"></a>
 ### 💭 What is a network protocol?
 
@@ -19,11 +23,12 @@ This project aims to introduce you to the network through practical cases.
 language for computers. Computers on a network may use very different software and hardware, but **the use of protocols 
 allows them to communicate with each other**.
 
-* For example two people who do not speak the same language, one French and one German, would have a second language 
+> For example two people who do not speak the same language, one French and one German, would have a second language 
 to understand each other, English.
 
 * **On the Internet, there are different protocols for different types of processes.** Protocols are often discussed in 
 terms of the layer of the `OSI` model to which they belong.
+
 
 <a name="OSI"></a>
 ### 💭 What is the OSI model?
@@ -36,19 +41,27 @@ terms of the layer of the `OSI` model to which they belong.
 * Each layer representing a different category of networking functions, **the protocols make these networking 
 functions possible**.
 
-* ☞ &nbsp;&nbsp;&nbsp;[ **Internet Protocol** (`IP`) ](#TCP) makes network-to-network communications possible. `IP` 
+* ☞ &nbsp;&nbsp;&nbsp;The [ **Internet Protocol** (`IP`) ](#TCP) makes network-to-network communications possible. `IP` 
 is considered a **[network layer](https://www.cloudflare.com/learning/network-layer/what-is-the-network-layer/)** 
 (Layer 3) protocol
 
-* ☞ &nbsp;&nbsp;&nbsp;[ The **Transmission Control Protocol** (`TCP`) ](#TCP) ensures the smooth transport of data packets over networks. 
+* ☞ &nbsp;&nbsp;&nbsp;The [ **Transmission Control Protocol** (`TCP`) ](#TCP) ensures the smooth transport of data packets over networks. 
 Therefore, TCP is considered a transport layer (Layer 4) protocol.
 * ℹ️ More information about OSI [here](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).
+
+
 
 <a name="titre"></a>
 ## main concept
 * **The following themes are important for the net practice project.**
+
 <a name="IP"></a>
 ### 💭 What is the internet Protocol (`IP`) ?
+
+
+
+
+
 <a name="TCP"></a>
 ### 💭 What is the Transmission Control Protocol (`TCP`) ?
 
@@ -62,25 +75,7 @@ but they are also meaningless without each other.
 * Difference between `TCP/IP` and other protocol **[UDP/ IP](https://www.cloudflare.com/fr-fr/learning/ddos/glossary/user-datagram-protocol-udp/)**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="img/tcp-ip_udp-ip.png" width="300">](img/tcp-ip_udp-ip.png)
-<a name="usage"></a>
-## 2. Usage tips
 
-This project aims to introduce you to the network through practical cases.This project aims to introduce you to the network through practical cases.
-This project aims to introduce you to the network through practical cases.
-This project aims to introduce you to the network through practical cases.
-This project aims to introduce you to the network through practical cases.
-This project aims to introduce you to the network through practical cases.
-This project aims to introduce you to the network through practical cases.
-This project aims to introduce you to the network through practical cases.
-This project aims to introduce you to the network through practical cases.
-This project aims to introduce you to the network through practical cases.
-This project aims to introduce you to the network through practical cases.
-This project aims to introduce you to the network through practical cases.
-This project aims to introduce you to the network through practical cases.
-This project aims to introduce you to the network through practical cases.This project aims to introduce you to the network through practical cases.
-This project aims to introduce you to the network through practical cases.
-This project aims to introduce you to the network through practical cases.This project aims to introduce you to the network through practical cases.This project aims to introduce you to the network through practical cases.
-This project aims to introduce you to the network through practical cases.
 
 
 ## Ressources
