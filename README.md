@@ -9,8 +9,8 @@ This project aims to introduce you to the network through practical cases.
 
 
 * ☞&nbsp;&nbsp; **[ main concept ](#titre)**
-  * [ What is the **TCP** or Transmission Control Protocol? ](#usage)
   * [ What is the **IP** or Internet Protocol? ](#usage)
+  * [ What is the **TCP** or Transmission Control Protocol? ](#usage)
 ## General information
 <a name="usage"></a>
 ### 💭 What is a network protocol?
@@ -47,9 +47,20 @@ Therefore, TCP is considered a transport layer (Layer 4) protocol.
 ## main concept
 * **The following themes are important for the net practice project.**
 <a name="usage"></a>
-### 💭 What is the Transmission Control Protocol (`TCP`) ?
-<a name="usage"></a>
 ### 💭 What is the internet Protocol (`IP`) ?
+<a name="usage"></a>
+### 💭 What is the Transmission Control Protocol (`TCP`) ?
+
+* `TCP` **is a transport layer protocol that ensures reliable delivery of data**. TCP is intended to be used with IP, and 
+the two protocols are often referred to together as TCP/IP.
+* > If the IP address is similar to the phone number assigned to your smartphone. 
+*  > TCP is all the technology that makes 
+the phone ring and allows you to talk to someone on another phone. They are different from each other, 
+but they are also meaningless without each other.
+
+* Difference between `TCP/IP` and other protocol **[UDP/ IP](https://www.cloudflare.com/fr-fr/learning/ddos/glossary/user-datagram-protocol-udp/)**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="img/tcp-ip_udp-ip.jpg" width="300">](img/tcp-ip_udp-ip.jpg)
 <a name="usage"></a>
 ## 2. Usage tips
 
