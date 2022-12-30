@@ -2,13 +2,13 @@
 # introduction
 This project aims to introduce you to the network through practical cases.
 
-## Table content
-* General information
+## 🧭 Table content
+* ☞&nbsp;&nbsp; **General information**
   * [ What is a network protocol? ](#desc)
   * [ What is the OSI model? ](#usage)
 
 <a name="usage"></a>
-### ℹ️ What is a network protocol?
+### 💭 What is a network protocol?
 
 * In networking, **a `protocol` is a set of rules for formatting and processing data**. Network protocols are like a common 
 language for computers. Computers on a network may use very different software and hardware, but **the use of protocols 
@@ -18,15 +18,19 @@ allows them to communicate with each other**.
 to understand each other, English.
 
 * **On the Internet, there are different protocols for different types of processes.** Protocols are often discussed in 
-terms of the layer of the OSI model to which they belong.
+terms of the layer of the `OSI` model to which they belong.
 
 <a name="usage"></a>
-### ℹ️ What is the OSI model?
+### 💭 What is the OSI model?
 
-* The OSI (Open Systems Interconnection) model is an abstract representation of how the Internet works.
-* It is made up of 7 steps: 
+* The `OSI` (Open Systems Interconnection) model is an abstract representation of how the Internet works.
+* It is made up of 7 layers: 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="img/osi-model-7-layers.png" width="300">](img/osi-model-7-layers.png)
+
+* Each layer representing a different category of networking functions, **the protocols make these networking 
+functions possible**.
+* ℹ️ More information about OSI [here](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).
 
 
 <a name="usage"></a>
