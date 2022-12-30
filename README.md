@@ -8,9 +8,8 @@ This project aims to introduce you to the network through practical cases.
   * [ What is the OSI model? ](#usage)
 
 
-* ☞&nbsp;&nbsp; **[ main concept ](#desc)**
-  * [ What is a network protocol? ](#desc)
-  * [ What is the OSI model? ](#usage)
+* ☞&nbsp;&nbsp; **[ main concept ](#usage)**
+
 ## General information
 <a name="usage"></a>
 ### 💭 What is a network protocol?
