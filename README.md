@@ -16,11 +16,6 @@ allows them to communicate with each other**.
 * For example two people who do not speak the same language, one French and one German, would have a second language 
 to understand each other, English.
 
-* This is what happens with computers. If one computer uses the **Internet Protocol** `(IP)` and a second computer does too, 
-**they can communicate**.
-
-* But if one computer **uses** `IP` and the other **does not** know this protocol, they will n**ot be able to communicate**.
-
 * **On the Internet, there are different protocols for different types of processes.** Protocols are often discussed in 
 terms of the layer of the OSI model to which they belong.
 
