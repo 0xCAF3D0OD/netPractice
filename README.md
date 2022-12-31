@@ -10,15 +10,18 @@ This project aims to introduce you to the network through practical cases.
 
 * ☞&nbsp;&nbsp; **[ main concept ](#titre)**
   * [ What is the **IP** or Internet Protocol? ](#IP)
+    * [ What is the Internet Protocol adress? ](#IPAd)
   * [ What is the **TCP** or Transmission Control Protocol? ](#TCP)
 
 
 ## General information
 
-
+-----
+* **General information on how the network as a whole works.**
 <a name="betwork"></a>
-### 💭 What is a network protocol?
+### 🔽 What is a network protocol?
 
+----------------
 * In networking, **a `protocol` is a set of rules for formatting and processing data**. Network protocols are like a common 
 language for computers. Computers on a network may use very different software and hardware, but **the use of protocols 
 allows them to communicate with each other**.
@@ -31,8 +34,9 @@ terms of the layer of the `OSI` model to which they belong.
 
 
 <a name="OSI"></a>
-### 💭 What is the OSI model?
+### 🔽 What is the OSI model? 
 
+----------------
 * The `OSI` (Open Systems Interconnection) model is an abstract representation of how the Internet works.
 * It is made up of 7 layers: 
 
@@ -49,21 +53,32 @@ is considered a **[network layer](https://www.cloudflare.com/learning/network-la
 Therefore, TCP is considered a transport layer (Layer 4) protocol.
 * ℹ️ More information about OSI [here](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).
 
-
-
 <a name="titre"></a>
 ## main concept
+
+----------------
 * **The following themes are important for the net practice project.**
 
 <a name="IP"></a>
-### 💭 What is the internet Protocol (`IP`) ?
+### 🔽 What is the internet Protocol (`IP`) ?
 
+----------------
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="img/ip.png" width="300">](img/ip.png)
+* **Internet Protocol** `(IP)` is a `protocol`, or set of rules, for **routing and addressing data packets** so that they can 
+traverse networks and arrive at the correct destination.
 
-
+<a name="IPad"></a>
+#### &nbsp;&nbsp;▶️ What is the internet Protocol address ?
+* > the `IP` **address** is similar to the phone number assigned to your smartphone.
+* An `IP` **address** is a unique number that **allows a computer to communicate in a network**. 
+  * ⚠️ There **cannot** be several **computers** with the **same IP address** in the same network.
+  * The unique **number** can be **assigned temporarily or permanently**.
 
 
 <a name="TCP"></a>
-### 💭 What is the Transmission Control Protocol (`TCP`) ?
+### 🔽 What is the Transmission Control Protocol (`TCP`) ?
+
+----------------
 
 * `TCP` **is a transport layer protocol that ensures reliable delivery of data**. TCP is intended to be used with IP, and 
 the two protocols are often referred to together as TCP/IP.
@@ -79,4 +94,20 @@ but they are also meaningless without each other.
 
 
 ## Ressources
-[subject](https://cdn.intra.42.fr/pdf/pdf/58600/fr.subject.pdf)
+
+* [net practice subject](https://cdn.intra.42.fr/pdf/pdf/58600/fr.subject.pdf)
+
+
+* **Network Protocol documentation**
+  * [Qu'est-ce qu'un protocole? | Définition d'un protocole de réseau](https://www.cloudflare.com/fr-fr/learning/network-layer/what-is-a-protocol/)
+
+ 
+* **IP documentation**
+  * [Adresse IP - Définition et Explications](https://www.techno-science.net/glossaire-definition/Adresse-IP.html)
+  * [Qu'est-ce qu'une adresse IP? ](https://www.avast.com/fr-fr/c-what-is-an-ip-address)
+  * [Qu'est-ce que IP (Internet Protocol)?](https://www.cloudflare.com/fr-fr/learning/network-layer/internet-protocol/)
+
+
+* **TCP documentation**
+  * [Transmission Control Protocol wiki](https://fr.wikipedia.org/wiki/Transmission_Control_Protocol)
+  * [rfc support](https://www.rfc-editor.org/rfc/rfc793)
