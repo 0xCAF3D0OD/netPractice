@@ -33,6 +33,7 @@ to understand each other, English.
   terms of the layer of the `OSI` model to which they belong.
 
 </details>
+
 ----
 <a name="OSI"></a>
 <details>	
@@ -74,6 +75,7 @@ Therefore, TCP is considered a transport layer (Layer 4) protocol.
 * **Internet Protocol** `(IP)` is a `protocol`, or set of rules, for **routing and addressing data packets** so that they can 
 traverse networks and arrive at the correct destination.
 </details>
+
 ----
 <a name="IPad"></a>
 <details>	
