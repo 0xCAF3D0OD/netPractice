@@ -40,7 +40,8 @@ terms of the layer of the `OSI` model to which they belong.
 * The `OSI` (Open Systems Interconnection) model is an abstract representation of how the Internet works.
 * It is made up of 7 layers: 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="img/osi-model-7-layers.png" width="300">](img/osi-model-7-layers.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[<img src="img/osi-model-7-layers.png" width="300">](img/osi-model-7-layers.png)
 
 * Each layer representing a different category of networking functions, **the protocols make these networking 
 functions possible**.
@@ -76,7 +77,8 @@ traverse networks and arrive at the correct destination.
 DNS resolvers translate human-readable domain names into IP addresses.
 
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="img/schema-adresse-ip.png" width="300">](img/schema-adresse-ip.png)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  [<img src="img/schema-adresse-ip.png" width="300">](img/schema-adresse-ip.png)
 
 
 * **Two types of IP addresses**: public IP addresses and local IP addresses:
@@ -86,7 +88,21 @@ DNS resolvers translate human-readable domain names into IP addresses.
   equipment and services connected to the Internet (websites, video hosting sites, etc.).
 
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="img/schema-adresse-ip-interne-externe.png" width="300">](img/schema-adresse-ip-interne-externe.png)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  [<img src="img/schema-adresse-ip-interne-externe.png" width="300">](img/schema-adresse-ip-interne-externe.png)
+
+
+
+* **IPv4 vs IPv6:**
+  * `IPv4` addresses contain a sequence of **four digits**, ranging from **0 (except the last) to 255**, each separated 
+  from the next by a dot, for example, 5.62.42.77.
+  * `IPv6` addresses consist of **8 groups of 4 hexadecimal characters**, numbered **0-9 and A-F**, and separated by a colon 
+  (example: 2001:db8:17d4:e800:ee56:9889:ff50:4e9a). This is the successor to IPv4. It is being deployed gradually 
+  and is only used for public IP addresses.
+
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  [<img src="img/schema-adresse-ipv6-nommage.png" width="300">](img/schema-adresse-ipv6-nommage.png)
 
 
 <a name="TCP"></a>
@@ -119,6 +135,7 @@ but they are also meaningless without each other.
   * [Adresse IP - Définition et Explications](https://www.techno-science.net/glossaire-definition/Adresse-IP.html)
   * [Qu'est-ce qu'une adresse IP? ](https://www.avast.com/fr-fr/c-what-is-an-ip-address)
   * [Qu'est-ce que IP (Internet Protocol)?](https://www.cloudflare.com/fr-fr/learning/network-layer/internet-protocol/)
+  * [Adresses IP : les éléments à connaître ](https://assistance.orange.fr/livebox-modem/toutes-les-livebox-et-modems/installer-et-utiliser/piloter-et-parametrer-votre-materiel/le-parametrage-avance-reseau-nat-pat-ip/gerer-votre-adresse-ip/adresses-ip-les-elements-a-connaitre-_238182-760947)
 
 
 * **TCP documentation**
