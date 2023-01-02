@@ -82,9 +82,9 @@ DNS resolvers translate human-readable domain names into IP addresses.
 
 
 * **Two types of IP addresses**: public IP addresses and local IP addresses:
-  * **Local IP addresses**: these are managed at the level of your local network between the **[ADSL modem](https://fr.wikipedia.org/wiki/Modem)** 
+  * `Local IP addresses`: these are managed at the level of your local network between the **[ADSL modem](https://fr.wikipedia.org/wiki/Modem)** 
   and **[Ethernet or Wi-Fi router](https://fr.wikipedia.org/wiki/Routeur)**, and your equipment (computers, mobiles, connected objects, etc.)
-  * **Public IP addresses**: these are managed globally by an organization that allocates these addresses individually to all
+  * `Public IP addresses`: these are managed globally by an organization that allocates these addresses individually to all
   equipment and services connected to the Internet (websites, video hosting sites, etc.).
 
 
