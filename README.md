@@ -13,35 +13,37 @@ This project aims to introduce you to the network through practical cases.
     * [ What is the Internet Protocol adress? ](#IPAd)
   * [ What is the **TCP** or Transmission Control Protocol? ](#TCP)
 
-
 ## General information
 
 
 * **General information on how the network as a whole works.**
-<a name="betwork"></a>
-### 🔽 What is a network protocol?
-
 ----
+<a name="betwork"></a>
+
+### 🔽 What is a network protocol?
+    
 * In networking, **a `protocol` is a set of rules for formatting and processing data**. Network protocols are like a common 
 language for computers. Computers on a network may use very different software and hardware, but **the use of protocols 
 allows them to communicate with each other**.
 
-> For example two people who do not speak the same language, one French and one German, would have a second language 
+> For example two people who do not speak the same language, one French and one German, would have a second language
 to understand each other, English.
 
-* **On the Internet, there are different protocols for different types of processes.** Protocols are often discussed in 
-terms of the layer of the `OSI` model to which they belong.
+* **On the Internet, there are different protocols for different types of processes.** Protocols are often discussed in
+  terms of the layer of the `OSI` model to which they belong.
 
-
-<a name="OSI"></a>
-### 🔽 What is the OSI model? 
 
 ----
+<a name="OSI"></a>
+<details>	
+  <summary><b> 🔽 What is the OSI model?  </b></summary>
+  <br />
+
 * The `OSI` (Open Systems Interconnection) model is an abstract representation of how the Internet works.
 * It is made up of 7 layers: 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-[<img src="img/osi-model-7-layers.png" width="300">](img/osi-model-7-layers.png)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  [<img src="img/osi-model-7-layers.png" width="300">](img/osi-model-7-layers.png)
 
 * Each layer representing a different category of networking functions, **the protocols make these networking 
 functions possible**.
@@ -54,27 +56,34 @@ is considered a **[network layer](https://www.cloudflare.com/learning/network-la
 Therefore, TCP is considered a transport layer (Layer 4) protocol.
 * ℹ️ More information about OSI [here](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).
 
+</details>
+
 <a name="titre"></a>
 ## main concept
 
 * **The following themes are important for the net practice project.**
 
+----
 <a name="IP"></a>
 ### 🔽 What is the internet Protocol (`IP`) ?
 
-----
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="img/ip.png" width="300">](img/ip.png)
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="img/ip.png" width="300">](img/ip.png)
 * **Internet Protocol** `(IP)` is a `protocol`, or set of rules, for **routing and addressing data packets** so that they can 
 traverse networks and arrive at the correct destination.
 
+
 <a name="IPad"></a>
-#### &nbsp;&nbsp;▶️ What is the internet Protocol address ?
+<details>	
+  <summary><b>   ▶️ What is the internet Protocol address ?</b></summary>
+  <br />
+
 * > the `IP` **address** is similar to the phone number assigned to your smartphone.
 * An `IP` **address** is a unique number that **allows a computer to communicate in a network**. 
-  * ⚠️ There **cannot** be several **computers** with the **same IP address** in the same network.
+  * ⚠️ There **cannot** be several **computers** with the **same `IP` address** in the same network.
   * The unique **number** can be **assigned temporarily or permanently**.
-* Each IP address is a series of characters, such as 192.168.1.1,
-DNS resolvers translate human-readable domain names into IP addresses.
+* Each `IP` **address** is a series of characters, such as 192.168.1.1,
+**[DNS resolvers](https://www.cloudflare.com/learning/dns/what-is-dns/)** translate human-readable domain names into IP addresses.
 
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -120,10 +129,15 @@ DNS resolvers translate human-readable domain names into IP addresses.
     <img src="img/avast/Avast-IP-Addresses-DE.png">
 </details>
 
-<a name="TCP"></a>
-### 🔽 What is the Transmission Control Protocol (`TCP`) ?
+* **An IP address consists of two parts:**
+  * `The network ID`, consisting of the **first three digits** of the address.
+  * `Host ID`, the **fourth digit** of the address.
+
+</details>
 
 ----
+<a name="TCP"></a>
+### 🔽 What is the Transmission Control Protocol (`TCP`)
 
 * `TCP` **is a transport layer protocol that ensures reliable delivery of data**. TCP is intended to be used with IP, and 
 the two protocols are often referred to together as TCP/IP.
