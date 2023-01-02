@@ -18,9 +18,10 @@ This project aims to introduce you to the network through practical cases.
 * **General information on how the network as a whole works.**
 ----
 <a name="betwork"></a>
+<details>	
+  <summary><b> 🔽 What is a network protocol?  </b></summary>
+  <br />
 
-### 🔽 What is a network protocol?
-    
 * In networking, **a `protocol` is a set of rules for formatting and processing data**. Network protocols are like a common 
 language for computers. Computers on a network may use very different software and hardware, but **the use of protocols 
 allows them to communicate with each other**.
@@ -31,7 +32,7 @@ to understand each other, English.
 * **On the Internet, there are different protocols for different types of processes.** Protocols are often discussed in
   terms of the layer of the `OSI` model to which they belong.
 
-
+</details>
 ----
 <a name="OSI"></a>
 <details>	
@@ -64,13 +65,15 @@ Therefore, TCP is considered a transport layer (Layer 4) protocol.
 
 ----
 <a name="IP"></a>
-### 🔽 What is the internet Protocol (`IP`) ?
+<details>	
+  <summary><b>🔽 What is the internet Protocol (IP) ?</b></summary>
+  <br />
 
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="img/ip.png" width="300">](img/ip.png)
 * **Internet Protocol** `(IP)` is a `protocol`, or set of rules, for **routing and addressing data packets** so that they can 
 traverse networks and arrive at the correct destination.
-
+</details>
 ----
 <a name="IPad"></a>
 <details>	
@@ -82,7 +85,8 @@ traverse networks and arrive at the correct destination.
   * ⚠️ There **cannot** be several **computers** with the **same `IP` address** in the same network.
   * The unique **number** can be **assigned temporarily or permanently**.
 * Each `IP` **address** is a series of characters, such as 192.168.1.1,
-**[DNS resolvers](https://www.cloudflare.com/learning/dns/what-is-dns/)** translate human-readable domain names into IP addresses.
+**[DNS resolvers](https://www.cloudflare.com/learning/dns/what-is-dns/)** translate human-readable domain names into IP 
+addresses.
 
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -91,7 +95,8 @@ traverse networks and arrive at the correct destination.
 
 * **Two types of IP addresses**: public IP addresses and local IP addresses:
   * `Local IP addresses`: these are managed at the level of your local network between the **[ADSL modem](https://fr.wikipedia.org/wiki/Modem)** 
-  and **[Ethernet or Wi-Fi router](https://fr.wikipedia.org/wiki/Routeur)**, and your equipment (computers, mobiles, connected objects, etc.)
+  and **[Ethernet or Wi-Fi router](https://fr.wikipedia.org/wiki/Routeur)**, and your equipment (computers, mobiles, 
+  connected objects, etc.)
   * `Public IP addresses`: these are managed globally by an organization that allocates these addresses individually to all
   equipment and services connected to the Internet (websites, video hosting sites, etc.).
 
@@ -111,31 +116,42 @@ traverse networks and arrive at the correct destination.
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   [<img src="img/schema-adresse-ipv6-nommage.png" width="300">](img/schema-adresse-ipv6-nommage.png)
 
-* You cannot give yourself an IP address to access the public Internet. The Internet community has imposed
-  an international authority: the **[IANA](http://www.iana.org/)**, which grants address quotas to professionals who redistribute them.
+* **IN GENERAL: An IP address consists of two parts:**
+  * `The network ID`, consisting of the **first three digits** of the address.
+  * `Host ID`, the **fourth digit** of the address.
 
-  
+* BUT...
+
+* The Internet community has imposed an international authority: the **[IANA](http://www.iana.org/)**, 
+  which grants address quotas to professionals who redistribute them.
+
+<details>	
+  <summary><b>🔽️ IANA authority</b></summary>
+  <br />
+
 * If you want to access the network, there are two solutions:
 
-  * You subscribe to an Internet Service Provider who, when you connect, will automatically distribute one to you.
-  It is part of the set of addresses that your access provider has rented, for a fee, from IANA or a local 
+  * You subscribe to an Internet Service Provider.
+  * When you connect, he will automatically distribute one to you.
+  * It is part of the set of addresses that your access provider has rented, for a fee, from IANA or a local 
   organization representing it.
 
   * You yourself rent a fixed IP address that will characterize your access to the network.
 
 
-* **IANA** compliant addresses are **divided into classes**. 
+* **IANA** compliant addresses are **divided into classes**.
   * All addresses written in **binary that begin** on the `left` with the digit `0` are Class `A`
   * All addresses written in **binary that begin** on the `left` with the digits `10` are class `B`
   * All addresses written in **binary starting** on the `left` with the digits `110` are class `C`
   * All addresses that, written in **binary, begin** on the `left` with the digits `1110` are class `D`
 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[<img src="img/adr_ip_500.png" width="300">](img/img/adr_ip_500.png)
+
+
 * A fixed IP that will characterize your network access.
-
-* **An IP address consists of two parts:**
-  * `The network ID`, consisting of the **first three digits** of the address.
-  * `Host ID`, the **fourth digit** of the address.
-
+</details>
 
 
 <br /></details>
@@ -157,7 +173,10 @@ traverse networks and arrive at the correct destination.
 
 ----
 <a name="TCP"></a>
-### 🔽 What is the Transmission Control Protocol (`TCP`)
+
+<details>	
+  <summary><b> 🔽 What is the Transmission Control Protocol (TCP) </b></summary>
+  <br />
 
 * `TCP` **is a transport layer protocol that ensures reliable delivery of data**. TCP is intended to be used with IP, and 
 the two protocols are often referred to together as TCP/IP.
@@ -170,6 +189,7 @@ but they are also meaningless without each other.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="img/tcp-ip_udp-ip.png" width="300">](img/tcp-ip_udp-ip.png)
 
+</details>
 
 ## Ressources
 
