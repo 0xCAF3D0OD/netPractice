@@ -12,11 +12,15 @@ This project aims to introduce you to the network through practical cases.
   * [ What is the **IP** or Internet Protocol? ](#IP)
   * [ What is the **TCP** or Transmission Control Protocol? ](#TCP)
 
+<br />
+
 ## General information
 
 
-* **General information on how the network as a whole works.**
+### **General information on how the network as a whole works.**
+
 ----
+<br />
 <a name="betwork"></a>
 <details>	
   <summary><b> 🔽 What is a network protocol?  </b></summary>
@@ -59,10 +63,11 @@ Therefore, TCP is considered a transport layer (Layer 4) protocol.
 
 </details>
 
-<a name="titre"></a>
+<a name="titre"></a>  
+<br />
 ## main concept
 
-* **The following themes are important for the net practice project.**
+### **The following themes are important for the net practice project.**
 
 ----
 <a name="IP"></a>
@@ -192,6 +197,7 @@ but they are also meaningless without each other.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="img/tcp-ip_udp-ip.png" width="300">](img/tcp-ip_udp-ip.png)
 
 </details>
+<br />
 
 ## Ressources
 
