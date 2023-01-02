@@ -17,9 +17,8 @@ This project aims to introduce you to the network through practical cases.
 ## General information
 
 
-#### ℹ️ &nbsp&nbsp **General information on how the network as a whole works.**
+#### ℹ️ &nbsp;&nbsp;**General information on how the network as a whole works.**
 
-----
 <br />
 
 <a name="betwork"></a>
@@ -68,7 +67,7 @@ Therefore, TCP is considered a transport layer (Layer 4) protocol.
 <br />
 ## main concept
 
-#### ℹ️ &nbsp&nbsp **The following themes are important for the net practice project.**
+#### ℹ️&nbsp;&nbsp;**The following themes are important for the net practice project.**
 
 <a name="IP"></a>
 <details>	
