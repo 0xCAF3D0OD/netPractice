@@ -16,12 +16,12 @@ This project aims to introduce you to the network through practical cases.
 
 ## General information
 
------
+
 * **General information on how the network as a whole works.**
 <a name="betwork"></a>
 ### 🔽 What is a network protocol?
 
-----------------
+----
 * In networking, **a `protocol` is a set of rules for formatting and processing data**. Network protocols are like a common 
 language for computers. Computers on a network may use very different software and hardware, but **the use of protocols 
 allows them to communicate with each other**.
@@ -36,7 +36,7 @@ terms of the layer of the `OSI` model to which they belong.
 <a name="OSI"></a>
 ### 🔽 What is the OSI model? 
 
-----------------
+----
 * The `OSI` (Open Systems Interconnection) model is an abstract representation of how the Internet works.
 * It is made up of 7 layers: 
 
@@ -56,13 +56,12 @@ Therefore, TCP is considered a transport layer (Layer 4) protocol.
 <a name="titre"></a>
 ## main concept
 
-----------------
 * **The following themes are important for the net practice project.**
 
 <a name="IP"></a>
 ### 🔽 What is the internet Protocol (`IP`) ?
 
-----------------
+----
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="img/ip.png" width="300">](img/ip.png)
 * **Internet Protocol** `(IP)` is a `protocol`, or set of rules, for **routing and addressing data packets** so that they can 
 traverse networks and arrive at the correct destination.
@@ -73,12 +72,27 @@ traverse networks and arrive at the correct destination.
 * An `IP` **address** is a unique number that **allows a computer to communicate in a network**. 
   * ⚠️ There **cannot** be several **computers** with the **same IP address** in the same network.
   * The unique **number** can be **assigned temporarily or permanently**.
+* Each IP address is a series of characters, such as 192.168.1.1,
+DNS resolvers translate human-readable domain names into IP addresses.
+
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="img/schema-adresse-ip.png" width="300">](img/schema-adresse-ip.png)
+
+
+* **Two types of IP addresses**: public IP addresses and local IP addresses:
+  * **Local IP addresses**: these are managed at the level of your local network between the **[ADSL modem](https://fr.wikipedia.org/wiki/Modem)** 
+  and **[Ethernet or Wi-Fi router](https://fr.wikipedia.org/wiki/Routeur)**, and your equipment (computers, mobiles, connected objects, etc.)
+  * **Public IP addresses**: these are managed globally by an organization that allocates these addresses individually to all
+  equipment and services connected to the Internet (websites, video hosting sites, etc.).
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="img/schema-adresse-ip-interne-externe.png" width="300">](img/schema-adresse-ip-interne-externe.png)
 
 
 <a name="TCP"></a>
 ### 🔽 What is the Transmission Control Protocol (`TCP`) ?
 
-----------------
+----
 
 * `TCP` **is a transport layer protocol that ensures reliable delivery of data**. TCP is intended to be used with IP, and 
 the two protocols are often referred to together as TCP/IP.
@@ -90,7 +104,6 @@ but they are also meaningless without each other.
 * Difference between `TCP/IP` and other protocol **[UDP/ IP](https://www.cloudflare.com/fr-fr/learning/ddos/glossary/user-datagram-protocol-udp/)**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="img/tcp-ip_udp-ip.png" width="300">](img/tcp-ip_udp-ip.png)
-
 
 
 ## Ressources
