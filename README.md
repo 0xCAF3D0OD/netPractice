@@ -11,9 +11,12 @@ This project aims to introduce you to the network through practical cases.
 * ☞&nbsp;&nbsp; **[ main concept ](#titre)**
   * [ What is the **IP** or Internet Protocol? ](#IP)
   * [ What is the **TCP** or Transmission Control Protocol? ](#TCP)
+----
+<p align="center">
+  <img src="img/apparence/world.png" width="250" />
+</p>
 
-<br />
-
+----
 ## General information
 
 
@@ -60,11 +63,15 @@ is considered a **[network layer](https://www.cloudflare.com/learning/network-la
 * ☞ &nbsp;&nbsp;&nbsp;The [ **Transmission Control Protocol** (`TCP`) ](#TCP) ensures the smooth transport of data packets over networks. 
 Therefore, TCP is considered a transport layer (Layer 4) protocol.
 * ℹ️ More information about OSI [here](https://www.cloudflare.com/learning/ddos/glossary/open-systems-interconnection-model-osi/).
-
 </details>
 
-<a name="titre"></a>  
-<br />
+----
+<p align="center">
+  <img src="img/apparence/gestion.png" width="250" />
+</p>
+
+----
+<a name="titre"></a>
 ## main concept
 
 #### ℹ️&nbsp;&nbsp;**The following themes are important for the net practice project.**
@@ -196,8 +203,14 @@ but they are also meaningless without each other.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="img/tcp-ip_udp-ip.png" width="300">](img/tcp-ip_udp-ip.png)
 
 </details>
-<br />
 
+
+----
+<p align="center">
+  <img src="img/apparence/cloud.png" width="250" />
+</p>
+
+----
 ## Ressources
 
 * [net practice subject](https://cdn.intra.42.fr/pdf/pdf/58600/fr.subject.pdf)
