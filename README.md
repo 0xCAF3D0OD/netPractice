@@ -71,7 +71,7 @@ Therefore, TCP is considered a transport layer (Layer 4) protocol.
 * **Internet Protocol** `(IP)` is a `protocol`, or set of rules, for **routing and addressing data packets** so that they can 
 traverse networks and arrive at the correct destination.
 
-
+----
 <a name="IPad"></a>
 <details>	
   <summary><b>🔽️ What is the internet Protocol address ?</b></summary>
@@ -111,9 +111,31 @@ traverse networks and arrive at the correct destination.
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   [<img src="img/schema-adresse-ipv6-nommage.png" width="300">](img/schema-adresse-ipv6-nommage.png)
 
+* You cannot give yourself an IP address to access the public Internet. The Internet community has imposed
+  an international authority: the **[IANA](http://www.iana.org/)**, which grants address quotas to professionals who redistribute them.
+
+  
+* If you want to access the network, there are two solutions:
+
+  * You subscribe to an Internet Service Provider who, when you connect, will automatically distribute one to you.
+  It is part of the set of addresses that your access provider has rented, for a fee, from IANA or a local 
+  organization representing it.
+
+  * You yourself rent a fixed IP address that will characterize your access to the network.
+
+
+* **IANA** compliant addresses are **divided into classes**. 
+  * All addresses written in **binary that begin** on the `left` with the digit `0` are Class `A`
+  * All addresses written in **binary that begin** on the `left` with the digits `10` are class `B`
+  * All addresses written in **binary starting** on the `left` with the digits `110` are class `C`
+  * All addresses that, written in **binary, begin** on the `left` with the digits `1110` are class `D`
+
+* A fixed IP that will characterize your network access.
+
 * **An IP address consists of two parts:**
   * `The network ID`, consisting of the **first three digits** of the address.
   * `Host ID`, the **fourth digit** of the address.
+
 
 
 <br /></details>
@@ -163,6 +185,7 @@ but they are also meaningless without each other.
   * [Qu'est-ce qu'une adresse IP? ](https://www.avast.com/fr-fr/c-what-is-an-ip-address)
   * [Qu'est-ce que IP (Internet Protocol)?](https://www.cloudflare.com/fr-fr/learning/network-layer/internet-protocol/)
   * [Adresses IP : les éléments à connaître ](https://assistance.orange.fr/livebox-modem/toutes-les-livebox-et-modems/installer-et-utiliser/piloter-et-parametrer-votre-materiel/le-parametrage-avance-reseau-nat-pat-ip/gerer-votre-adresse-ip/adresses-ip-les-elements-a-connaitre-_238182-760947)
+  * [4° Réseaux & sous-réseaux IP](http://arsene.perez-mas.pagesperso-orange.fr/reseaux/tcpip/reseaux_ip.htm) 
 
 
 * **TCP documentation**
