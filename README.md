@@ -10,7 +10,6 @@ This project aims to introduce you to the network through practical cases.
 
 * ☞&nbsp;&nbsp; **[ main concept ](#titre)**
   * [ What is the **IP** or Internet Protocol? ](#IP)
-    * [ What is the Internet Protocol adress? ](#IPAd)
   * [ What is the **TCP** or Transmission Control Protocol? ](#TCP)
 
 ## General information
@@ -75,7 +74,7 @@ traverse networks and arrive at the correct destination.
 
 <a name="IPad"></a>
 <details>	
-  <summary><b>   ▶️ What is the internet Protocol address ?</b></summary>
+  <summary><b>🔽️ What is the internet Protocol address ?</b></summary>
   <br />
 
 * > the `IP` **address** is similar to the phone number assigned to your smartphone.
@@ -112,8 +111,13 @@ traverse networks and arrive at the correct destination.
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   [<img src="img/schema-adresse-ipv6-nommage.png" width="300">](img/schema-adresse-ipv6-nommage.png)
 
+* **An IP address consists of two parts:**
+  * `The network ID`, consisting of the **first three digits** of the address.
+  * `Host ID`, the **fourth digit** of the address.
 
-<details>	
+
+<br /></details>
+<br /><details>	
   <summary><b>Avast infographic ip address in image: English</b></summary>
   <br />
     <img src="img/avast/IP-adresses-infographic-eng.png">
@@ -127,12 +131,6 @@ traverse networks and arrive at the correct destination.
   <summary><b>Avast infographic ip address in image: Deutsch</b></summary>
   <br />
     <img src="img/avast/Avast-IP-Addresses-DE.png">
-</details>
-
-* **An IP address consists of two parts:**
-  * `The network ID`, consisting of the **first three digits** of the address.
-  * `Host ID`, the **fourth digit** of the address.
-
 </details>
 
 ----
