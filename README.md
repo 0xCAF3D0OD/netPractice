@@ -86,7 +86,7 @@ DNS resolvers translate human-readable domain names into IP addresses.
   equipment and services connected to the Internet (websites, video hosting sites, etc.).
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="img/schema-adresse-ip-interne-externe.png" width="300">](img/schema-adresse-ip-interne-externe.png)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="img/schema-adresse-ip-interne-externe.png" width="300">](img/schema-adresse-ip-interne-externe.png)
 
 
 <a name="TCP"></a>
