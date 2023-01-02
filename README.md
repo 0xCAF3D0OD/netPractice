@@ -92,7 +92,6 @@ DNS resolvers translate human-readable domain names into IP addresses.
   [<img src="img/schema-adresse-ip-interne-externe.png" width="300">](img/schema-adresse-ip-interne-externe.png)
 
 
-
 * **IPv4 vs IPv6:**
   * `IPv4` addresses contain a sequence of **four digits**, ranging from **0 (except the last) to 255**, each separated 
   from the next by a dot, for example, 5.62.42.77.
@@ -104,6 +103,22 @@ DNS resolvers translate human-readable domain names into IP addresses.
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   [<img src="img/schema-adresse-ipv6-nommage.png" width="300">](img/schema-adresse-ipv6-nommage.png)
 
+
+<details>	
+  <summary><b>Avast infographic ip address in image: English</b></summary>
+  <br />
+    <img src="img/avast/IP-adresses-infographic-eng.png">
+</details>
+<details>	
+  <summary><b>Avast infographic ip address in image: Francais</b></summary>
+  <br />
+    <img src="img/avast/Avast-IP-Addresses-FR.png">
+</details>
+<details>	
+  <summary><b>Avast infographic ip address in image: Deutsch</b></summary>
+  <br />
+    <img src="img/avast/Avast-IP-Addresses-DE.png">
+</details>
 
 <a name="TCP"></a>
 ### 🔽 What is the Transmission Control Protocol (`TCP`) ?
