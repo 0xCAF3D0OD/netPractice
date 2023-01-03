@@ -14,6 +14,7 @@ This project aims to introduce you to the network through practical cases.
 ----
 <p align="center">
   <img src="img/apparence/1.png" width="500" />
+  <img src="img/apparence/world.png" width="100" />
 </p>
 
 ----
