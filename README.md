@@ -13,7 +13,7 @@ This project aims to introduce you to the network through practical cases.
   * [ What is the **TCP** or Transmission Control Protocol? ](#TCP)
 ----
 <p align="center">
-  <img src="img/apparence/world.png" width="200" />
+  <img src="img/apparence/1.png" width="500" />
 </p>
 
 ----
@@ -67,7 +67,7 @@ Therefore, TCP is considered a transport layer (Layer 4) protocol.
 
 ----
 <p align="center">
-  <img src="img/apparence/servers.png" width="200" />
+  <img src="img/apparence/2.jpeg" width="500" />
 </p>
 
 ----
@@ -207,7 +207,7 @@ but they are also meaningless without each other.
 
 ----
 <p align="center">
-  <img src="img/apparence/files.png" width="200" />
+  <img src="img/apparence/3.jpg" width="500" />
 </p>
 
 ----
