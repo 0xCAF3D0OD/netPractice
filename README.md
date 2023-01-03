@@ -207,7 +207,7 @@ but they are also meaningless without each other.
 
 ----
 <p align="center">
-  <img src="img/apparence/file.png" width="200" />
+  <img src="img/apparence/files.png" width="200" />
 </p>
 
 ----
@@ -231,7 +231,3 @@ but they are also meaningless without each other.
 * **TCP documentation**
   * [Transmission Control Protocol wiki](https://fr.wikipedia.org/wiki/Transmission_Control_Protocol)
   * [rfc support](https://www.rfc-editor.org/rfc/rfc793)
-
-<p align="center">
-  <img src="img/apparence/cloud.png" width="250" />
-</p>
