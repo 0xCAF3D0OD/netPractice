@@ -231,6 +231,19 @@ but they are also meaningless without each other.
 <br />
 <br />
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[<img src="img/Subnetting_operation.png" width="300">](img/Subnetting_operation.png)
+
+
+* A subnet is a logical subdivision of a larger network. The subnet mask distinguishes between the part of the address 
+  that is common to all devices on the subnet and the part that varies from device to device. A subnet typically 
+  corresponds to an underlying local network.
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[<img src="img/Subnet-mask-diagram.png" width="300">](img/Subnet-mask-diagram.png)
+
+
 * **An analogy to explain IP subnet, subnet address and subnet mask (made by 
 [ManageEngine](https://www.manageengine.com/fr/oputils/ip-subnetting.html)):**<br /><br />
   * > 0️⃣&nbsp; You organize a summer camp, you teach music, art, dance and theatre to students.<br />
@@ -264,6 +277,16 @@ but they are also meaningless without each other.
   Within the monitored IP subnets, each has a network ID (class ID).
   The hosts in the subnet have a host ID (`roll number`). To identify which host belongs to which subnet, 
   we use the subnet mask (`paper mask`).
+
+
+</details>
+
+<a name="subnet"></a>
+
+<details>	
+  <summary><b> 🔽 Subnet Mask </b></summary>
+<br />
+
 
 </details>
 
