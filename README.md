@@ -12,6 +12,9 @@ This project aims to introduce you to the network through practical cases.
 * ☞&nbsp;&nbsp; **[ main concept ](#titre)**
   * [ What is the **IP** or Internet Protocol? ](#IP)
   * [ What is the **TCP** or Transmission Control Protocol? ](#TCP)
+  * [ What is the **Subnet**? ](#Subnet)
+  * [ What is the **Subnet Mask**? ](#sMask)
+
 ----
 <p align="center">
   <img src="img/apparence/1.png" width="500" />
@@ -229,7 +232,7 @@ but they are also meaningless without each other.
 <a name="subnet"></a>
 
 <details>	
-  <summary><b> 🔽 Subnet </b></summary>
+  <summary><b> 🔽 What is the Subnet </b></summary>
 <br />
 <br />
 
@@ -283,10 +286,10 @@ but they are also meaningless without each other.
 
 </details>
 
-<a name="subnet"></a>
+<a name="sMask"></a>
 
 <details>
-  <summary><b> 🔽 Subnet Mask </b></summary>
+  <summary><b> 🔽 What is the Subnet Mask </b></summary>
 <br />
 
 * [ManageEngine](https://www.manageengine.com/fr/oputils/ip-subnetting.html) definition: 
