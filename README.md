@@ -300,6 +300,7 @@ In `IPv4`, an `IP address` is **encoded in 4 bytes**, or **32 bits** (represente
 The `subnet mask` also has **4 bytes**.
 In practice, made-up masks are used (in their binary form), so there are **32 possible** `network masks`.
 
+
 </details>
 
 ----
@@ -311,7 +312,7 @@ In practice, made-up masks are used (in their binary form), so there are **32 po
 * **Network Protocol documentation**
   * [Qu'est-ce qu'un protocole? | Définition d'un protocole de réseau](https://www.cloudflare.com/fr-fr/learning/network-layer/what-is-a-protocol/)
 
- 
+
 * **IP documentation**
   * [Adresse IP - Définition et Explications](https://www.techno-science.net/glossaire-definition/Adresse-IP.html)
   * [Qu'est-ce qu'une adresse IP? ](https://www.avast.com/fr-fr/c-what-is-an-ip-address)
@@ -324,5 +325,8 @@ In practice, made-up masks are used (in their binary form), so there are **32 po
   * [Transmission Control Protocol wiki](https://fr.wikipedia.org/wiki/Transmission_Control_Protocol)
   * [rfc support](https://www.rfc-editor.org/rfc/rfc793)
 
+
 * **Subnet**
-  * [Sous-réseau - Définition et Explications](https://www.techno-science.net/definition/3813.html) 
+  * [Introduction au sous-réseau IP à l'aide de CIDR et VLSM](https://www.manageengine.com/fr/oputils/ip-subnetting.html) 
+  * [Sous-réseau - Définition et Explications](https://www.techno-science.net/definition/3813.html)
+  * [sous-réseau - wikipedia](https://fr.wikipedia.org/wiki/Sous-r%C3%A9seau)
