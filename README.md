@@ -233,15 +233,15 @@ but they are also meaningless without each other.
 
 * **An analogy to explain IP subnet, subnet address and subnet mask (made by 
 [ManageEngine](https://www.manageengine.com/fr/oputils/ip-subnetting.html)):**<br /><br />
-  * > 0️⃣.&nbsp; You organize a summer camp, you teach music, art, dance and theatre to students.<br />
-  * > 1️⃣.&nbsp; You want to **uniquely identify each student** so that a student **ID number** tells you the 
+  * > 0️⃣&nbsp; You organize a summer camp, you teach music, art, dance and theatre to students.<br />
+  * > 1️⃣&nbsp; You want to **uniquely identify each student** so that a student **ID number** tells you the 
   **student's class and role number**.<br />
   You have rented a room for your camp, you **put up partitions to 
   separate the room into four different rooms**.<br />
   Because we don't want the classes to interfere with each other. 
   **it is easier to create unique identifiers<br />
   within one class than in all four classes together**.
-  * > 2️⃣.&nbsp; Each student is assigned to a class. **Allows each class to be assigned a class ID**.<br />
+  * > 2️⃣&nbsp; Each student is assigned to a class. **Allows each class to be assigned a class ID**.<br />
   For `art class` it is `01`, for `music` it is `02`, for `dance` `03`,
   and for `drama` it is `04`.<br />
   There are **20 students enrolled in each class**. So we have the 
@@ -250,7 +250,7 @@ but they are also meaningless without each other.
   we **give each pupil an identity card with his class ID and roll number**.<br /><br />
   ▶️&nbsp;**A student with roll number `13` enrolled in a 
   `music course` has an ID card that says `0213`.**
-  * > 3️⃣.&nbsp; Let's say someone has found **four lost ID cards** and wants to return them to the students.<br />
+  * > 3️⃣&nbsp; Let's say someone has found **four lost ID cards** and wants to return them to the students.<br />
   They can easily find out which class the student belongs to 
   by simply placing a mask over the last two numbers;<br /><br />
   ▶️&nbsp;**The first two numbers will give them the class ID.**<br /><br />
