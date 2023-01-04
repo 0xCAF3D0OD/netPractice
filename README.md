@@ -228,9 +228,11 @@ but they are also meaningless without each other.
 
 <details>	
   <summary><b> 🔽 Subnet </b></summary>
+<br />
+<br />
 
 * **An analogy to explain IP subnet, subnet address and subnet mask (made by 
-[ManageEngine](https://www.manageengine.com/fr/oputils/ip-subnetting.html)):**
+[ManageEngine](https://www.manageengine.com/fr/oputils/ip-subnetting.html)):**<br /><br />
   * > 0️⃣.&nbsp; You organize a summer camp, you teach music, art, dance and theatre to students.<br />
   * > 1️⃣.&nbsp; You want to **uniquely identify each student** so that a student **ID number** tells you the 
   **student's class and role number**.<br />
