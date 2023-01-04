@@ -133,6 +133,11 @@ addresses.
   * `The network ID`, consisting of the **first three digits** of the address.
   * `Host ID`, the **fourth digit** of the address.
 
+
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  [<img src="img/ip-address-representation.jpg" width="300">](img/ip-address-representation.jpg)
+
+
 * BUT...
 
 * The Internet community has imposed an international authority: the **[IANA](http://www.iana.org/)**, 
@@ -198,17 +203,67 @@ the two protocols are often referred to together as TCP/IP.
 the phone ring and allows you to talk to someone on another phone. They are different from each other, 
 but they are also meaningless without each other.
 
+</details>
+
+<a name="TCP"></a>
+
+<details>	
+  <summary><b> 🔽 So what is (TCP/IP) </b></summary>
+  <br />
+
+* The `TCP/IP` relationship is like **mailing** a message **written on a puzzle** to a recipient.
+*  > The message is written on the whole puzzle and then the puzzle is broken down. Each piece can then follow a different postal route. When the puzzle pieces arrive after following their different routes, they can be in any order.
+*  > The `IP` protocol ensures that the pieces arrive at their destination address.
+*  > `TCP` can be seen as the assembler of the puzzle on the receiver's side, putting the pieces back in the right order, requesting that missing pieces be returned and informing the sender that the puzzle has been received.
+*  > `TCP` maintains the connection with the sender from before the first piece of the puzzle was sent until after the last piece was sent.
+
 * Difference between `TCP/IP` and other protocol **[UDP/ IP](https://www.cloudflare.com/fr-fr/learning/ddos/glossary/user-datagram-protocol-udp/)**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="img/tcp-ip_udp-ip.png" width="300">](img/tcp-ip_udp-ip.png)
 
+
 </details>
 
+<a name="subnet"></a>
 
-----
-<p align="center">
-  <img src="img/apparence/3.jpg" width="500" />
-</p>
+<details>	
+  <summary><b> 🔽 Subnet </b></summary>
+
+* **An analogy to explain IP subnet, subnet address and subnet mask (made by 
+[ManageEngine](https://www.manageengine.com/fr/oputils/ip-subnetting.html)):**
+  * > 0️⃣.&nbsp; You organize a summer camp, you teach music, art, dance and theatre to students.<br />
+  * > 1️⃣.&nbsp; You want to **uniquely identify each student** so that a student **ID number** tells you the 
+  **student's class and role number**.<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; You have rented a room for your camp, you **put up partitions to 
+  separate the room into four different rooms**.<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Because we don't want the classes to interfere with each other. 
+  **it is easier to create unique identifiers<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; within one class than in all four classes together**.
+  * > 2️⃣.&nbsp; Each student is assigned to a class. **Allows each class to be assigned a class ID**.<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; For `art class` it is `01`, for `music` it is `02`, for `dance` `03`,
+  and for `drama` it is `04`.<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; There are **20 students enrolled in each class**. So we have the 
+  list numbers from `1 to 20` in each classroom.<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In order to identify which pupil belongs to which class,
+  we **give each pupil an identity card with his class ID and roll number**.<br /><br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▶️&nbsp;**A student with roll number `13` enrolled in a 
+  `music course` has an ID card that says `0213`.**
+  * > 3️⃣.&nbsp; Let's say someone has found **four lost ID cards** and wants to return them to the students.<br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; They can easily find out which class the student belongs to 
+  by simply placing a mask over the last two numbers;<br /><br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▶️&nbsp;**The first two numbers will give them the class ID.**
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[<img src="img/img-id-cards.jpg" width="300">](img/img-id-cards.jpg)
+
+* **Similarly, a network can consist of several hosts.**<br />
+  To efficiently assign addresses to these hosts, we partition the network (`hall`) into subnets (`classrooms`). 
+  Within the monitored IP subnets, each has a network ID (class ID).
+  The hosts in the subnet have a host ID (`roll number`). To identify which host belongs to which subnet, 
+  we use the subnet mask (`paper mask`).
+
+</details>
 
 ----
 ## Ressources
@@ -231,3 +286,6 @@ but they are also meaningless without each other.
 * **TCP documentation**
   * [Transmission Control Protocol wiki](https://fr.wikipedia.org/wiki/Transmission_Control_Protocol)
   * [rfc support](https://www.rfc-editor.org/rfc/rfc793)
+
+* **Subnet**
+  * [Sous-réseau - Définition et Explications](https://www.techno-science.net/definition/3813.html) 
