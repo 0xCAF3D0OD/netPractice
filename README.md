@@ -289,6 +289,9 @@ but they are also meaningless without each other.
   <summary><b> 🔽 Subnet Mask </b></summary>
 <br />
 
+* [ManageEngine](https://www.manageengine.com/fr/oputils/ip-subnetting.html) definition: 
+A `32-bit` representation used by a `TCP/IP` network to define the range of` IP addresses` available in a subnet.
+
 * A `subnet mask` is a mask that distinguishes the bits **of the subnet** of an `IPv4 address` from those used to 
 **identify** the host, and is obtained by applying the **binary** `AND` operator between the `IPv4` address and 
 the `subnet mask`.
@@ -302,6 +305,12 @@ In practice, made-up masks are used (in their binary form), so there are **32 po
 
 
 </details>
+
+-----
+
+<p align="center">
+  <img src="img/apparence/3.jpg" width="500" />
+</p>
 
 ----
 ## Ressources
