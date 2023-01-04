@@ -3,7 +3,8 @@
 This project aims to introduce you to the network through practical cases.
 
 ## Table content
-* ☞&nbsp;&nbsp; **General concept**
+
+* ☞&nbsp;&nbsp; **[ General concept ](#titre1)**
   * [ What is a **network protocol**? ](#network)
   * [ What is the **OSI model**? ](#OSI)
 
@@ -17,7 +18,8 @@ This project aims to introduce you to the network through practical cases.
 </p>
 
 ----
-## General information
+<a name="titre1"></a>
+## General Concept
 
 
 #### ℹ️ &nbsp;&nbsp;**General information on how the network as a whole works.**
@@ -283,10 +285,20 @@ but they are also meaningless without each other.
 
 <a name="subnet"></a>
 
-<details>	
+<details>
   <summary><b> 🔽 Subnet Mask </b></summary>
 <br />
 
+* A `subnet mask` is a mask that distinguishes the bits **of the subnet** of an `IPv4 address` from those used to 
+**identify** the host, and is obtained by applying the **binary** `AND` operator between the `IPv4` address and 
+the `subnet mask`.
+* The `host address` within the subnet is obtained by applying the `AND` operator between the 
+`IPv4 address` and the one's complement of the mask.
+
+* `Subnet masks` use the **same representation** as `IPv4 addresses`.
+In `IPv4`, an `IP address` is **encoded in 4 bytes**, or **32 bits** (represented in dot decimal notation).
+The `subnet mask` also has **4 bytes**.
+In practice, made-up masks are used (in their binary form), so there are **32 possible** `network masks`.
 
 </details>
 
