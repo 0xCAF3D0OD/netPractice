@@ -253,7 +253,7 @@ but they are also meaningless without each other.
   * > 3️⃣.&nbsp; Let's say someone has found **four lost ID cards** and wants to return them to the students.<br />
   They can easily find out which class the student belongs to 
   by simply placing a mask over the last two numbers;<br /><br />
-  ▶️&nbsp;**The first two numbers will give them the class ID.**
+  ▶️&nbsp;**The first two numbers will give them the class ID.**<br /><br />
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
