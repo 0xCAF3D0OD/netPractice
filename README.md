@@ -198,7 +198,7 @@ addresses.
 <a name="TCP"></a>
 
 <details>	
-  <summary><b> 🔽 What is the Transmission Control Protocol (TCP) </b></summary>
+  <summary><b> 🔽 What is the Transmission Control Protocol (TCP) ?</b></summary>
   <br />
 
 * `TCP` **is a transport layer protocol that ensures reliable delivery of data**. TCP is intended to be used with IP, and 
@@ -213,7 +213,7 @@ but they are also meaningless without each other.
 <a name="TCP"></a>
 
 <details>	
-  <summary><b> 🔽 So what is (TCP/IP) </b></summary>
+  <summary><b> 🔽 So what is (TCP/IP) ?</b></summary>
   <br />
 
 * The `TCP/IP` relationship is like **mailing** a message **written on a puzzle** to a recipient.
@@ -232,7 +232,7 @@ but they are also meaningless without each other.
 <a name="subnet"></a>
 
 <details>	
-  <summary><b> 🔽 What is the Subnet </b></summary>
+  <summary><b> 🔽 What is the Subnet ?</b></summary>
 <br />
 <br />
 
@@ -289,7 +289,7 @@ but they are also meaningless without each other.
 <a name="sMask"></a>
 
 <details>
-  <summary><b> 🔽 What is the Subnet Mask </b></summary>
+  <summary><b> 🔽 What is the Subnet Mask ?</b></summary>
 <br />
 
 * [ManageEngine](https://www.manageengine.com/fr/oputils/ip-subnetting.html) definition: 
