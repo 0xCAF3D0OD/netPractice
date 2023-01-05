@@ -124,7 +124,7 @@ addresses.
 
 
 * **IPv4 vs IPv6:**
-  * `IPv4` addresses contain a sequence of **four digits**, ranging from **0 (except the last) to 255**, each separated 
+  * `IPv4` addresses contain a sequence of **four number**, ranging from **0 (except the last) to 255**, each separated 
   from the next by a dot, for example, 5.62.42.77.
   * `IPv6` addresses consist of **8 groups of 4 hexadecimal characters**, numbered **0-9 and A-F**, and separated by a colon 
   (example: 2001:db8:17d4:e800:ee56:9889:ff50:4e9a). This is the successor to IPv4. It is being deployed gradually 
