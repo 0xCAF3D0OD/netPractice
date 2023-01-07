@@ -1,6 +1,11 @@
 ![netpractice.png](img/netpractice.png)
 ## introduction
 This project aims to introduce you to the network through practical cases.
+* This readme is not meant to only pass the net_practice project but rather a general guide to networking.
+* For a detailed explanation of how to pass the net practice exercises, you can refer to the attached github:
+
+* [Guide to NetPractice](https://github.com/Laubester/NetPractice)
+* [Net_Practice](https://github.com/tblaase/Net_Practice#level-2)
 
 ## Table content
 
